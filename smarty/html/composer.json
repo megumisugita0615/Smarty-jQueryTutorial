@@ -1,0 +1,6 @@
+{
+    "name": "root/html",
+    "require": {
+        "smarty/smarty": "^4.3"
+    }
+}
