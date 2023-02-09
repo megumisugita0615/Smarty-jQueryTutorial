@@ -1,0 +1,23 @@
+version: '3.7'
+services:
+    php:
+        build: .
+        volumes:
+            - "./html/:/var/www/html"
+        privileged: true
+        ports:
+            - "80:80"
+        depends_on:
+            - mysql
+    mysql:
+        image: mysql:8
+        volumes:
+            - ./mysql:/var/lib/mysql
+            - ./config/mysql/my.cnf:/etc/mysql/conf.d/my.cnf
+        environment:
+            - MYSQL_ROOT_PASSWORD=root
+            - MYSQL_DATABASE=smarty
+            - MYSQL_USER=testuser
+            - MYSQL_PASSWORD=testpassword
+        ports:
+            - "3306:3306"
