@@ -1,4 +1,4 @@
-# [Smarty-jQuery Tutorial](https://github.com/megumisugita0615/Smarty-jQueryTutorial)
+This is [Smarty & jQuery tutorial](https://github.com/megumisugita0615/Smarty-jQueryTutorial).
 
 ## Environment
 
