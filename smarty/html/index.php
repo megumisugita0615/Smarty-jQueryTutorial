@@ -1,12 +1,11 @@
 <?php
 
 require 'vendor/autoload.php';
-$smarty = new Smarty();
-$smarty->setTemplateDir('templates/');
-$smarty->setConfigDir('config/');
-$smarty->setCompileDir('templates_c/');
-$smarty->setCacheDir('cache/');
-// $smarty->testInstall();
+require 'src/Constructers/Constructer.php';
+// require 'src/examples/Var.php';
 
-$smarty->assign('name', 'User');
+$smarty = new Smarty();
+$smarty->assign('index', 'Index');
+$smarty->assign('var', 'Var');
+$smarty->assign('comment', 'Comment');
 $smarty->display('index.tpl');
