@@ -3,7 +3,7 @@ services:
     php:
         build: .
         volumes:
-            - "./docs/:/var/www/html"
+            - "./html/:/var/www/html"
         privileged: true
         ports:
             - "80:80"

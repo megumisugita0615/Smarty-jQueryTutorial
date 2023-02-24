@@ -1,0 +1,26 @@
+@use '_header';
+@use '_welcome';
+@use '_news';
+
+body {
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Tilt Warp";
+}
+
+// .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+//     font-family: "Monstserrat";
+// }
+
+a {
+    text-decoration: none !important;
+}
+
+.font-strong {
+    font-family: "Tilt Warp";
+}
