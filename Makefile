@@ -1,0 +1,16 @@
+install:
+	@make build
+	@make up
+	docker compose exec php composer install
+	docker compose exec php composer require smarty/smarty
+	docker compose exec php chmod 777 -R .
+up:
+	docker compose up -d
+down:
+	docker compose down
+build:
+	docker compose build --no-cache
+php:
+	docker compose exec php sh
+mysql:
+	docker compose exec mysql mysql -u testuser -p testpassword
