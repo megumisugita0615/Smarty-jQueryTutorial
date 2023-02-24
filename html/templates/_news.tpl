@@ -28,7 +28,7 @@
         <div class="news-content news-content-active" id="example-content">
             <div class="row justify-content-start m-2">
                 {foreach $example_data as $data}
-                    <div class="card border-white border-5 col-12 col-xl-4 p-2">
+                    <div class="card border-white border-5 col-12 col-lg-6 col-xl-4 p-2">
                         <div class="card-body bg-light rounded">
                             <h3 class="card-title">{$data.title}</h3>
                             <div class="d-block">
