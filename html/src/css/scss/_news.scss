@@ -1,0 +1,6 @@
+.news-content {
+    display: none;
+    &-active {
+        display: block;
+    }
+}

@@ -1,0 +1,32 @@
+.welcome {
+  min-height: 50vh;
+}
+.welcome_box {
+  padding-top: 25vh;
+}
+
+.news-content {
+  display: none;
+}
+.news-content-active {
+  display: block;
+}
+
+body {
+  font-family: "Open Sans";
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Tilt Warp";
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.font-strong {
+  font-family: "Tilt Warp";
+}
