@@ -13,14 +13,12 @@ This is [Smarty & jQuery tutorial](https://github.com/megumisugita0615/Smarty-jQ
 git clone https://github.com/megumisugita0615/Smarty-jQueryTutorial.git
 ```
 
-## Smarty
-
 ### Env Construction
 
 move directory
 
 ```
-cd Smarty-jQueryTutorial/smarty 
+cd Smarty-jQueryTutorial
 ```
 
 Init
@@ -31,9 +29,4 @@ make install
 
 Access `http://localhost/`
 
-```
-Hello User, welcome to Smarty!
-```
-
-
-## jQuery
+<img width="1440" alt="welcome" src="https://user-images.githubusercontent.com/106021148/221112859-6afef425-f679-4193-961b-d37c70a59c3f.png">
