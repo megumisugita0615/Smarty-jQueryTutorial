@@ -8,6 +8,9 @@
 .welcome_box {
     padding-top: 25vh;
 }
+.welcome-title {
+    display: none;
+}
 
 .news-content {
     display: none;

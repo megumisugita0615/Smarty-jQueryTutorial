@@ -1,16 +1,16 @@
 <div class="container">
     <div class="border-bottom border-2">
-        <div class="p-1">
-            <button class="btn btn-warning text-light" id="example-tab" type="button">
+        <div class="p-2 d-flex justify-content-center">
+            <button class="btn btn-warning text-light mx-1" id="example-tab" type="button">
                 EXAMPLE
             </button>
-            <button class="btn btn-warning text-light" id="top-tab" type="button">
+            <button class="btn btn-warning text-light mx-1" id="top-tab" type="button">
                 TOP
             </button>
-            <button class="btn btn-warning text-light" id="new-tab" type="button">
+            <button class="btn btn-warning text-light mx-1" id="new-tab" type="button">
                 NEW
             </button>
-            <button class="btn btn-warning text-light" id="best-tab" type="button">
+            <button class="btn btn-warning text-light mx-1" id="best-tab" type="button">
                 BEST
             </button>
         </div>
