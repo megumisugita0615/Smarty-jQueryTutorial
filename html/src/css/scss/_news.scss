@@ -1,6 +1,28 @@
-.news-content {
-    display: none;
-    &-active {
+.news {
+    &-content {
+        display: none;
+
+        &-active {
+            display: block;
+        }
+    }
+
+    &__articles {
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        box-sizing: border-box;
         display: block;
+        margin: 15px 10px;
+        padding: 20px 10px;
+        text-align: center;
+    }
+}
+
+#top, #latest, #best {
+    a {
+        color: #6c757d;
+        font-family: "Tilt Warp";
+        font-size: 1.2rem;
+        line-height: 1.1;
     }
 }

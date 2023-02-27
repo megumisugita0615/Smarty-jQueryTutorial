@@ -24,7 +24,10 @@
     <div class="news" id="news">
         {include file="_news.tpl"}
     </div>
-    <script src="../src/script.js"></script>
+    <script src="../src/js/jquery.js"></script>
+    <script src="../src/js/api/top.js"></script>
+    <script src="../src/js/api/latest.js"></script>
+    <script src="../src/js/api/best.js"></script>
 </body>
 
 </html>

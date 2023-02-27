@@ -18,6 +18,22 @@
 .news-content-active {
     display: block;
 }
+.news__articles {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: block;
+    margin: 15px 10px;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+#top a, #latest a, #best a {
+    color: #6c757d;
+    font-family: "Tilt Warp";
+    font-size: 1.2rem;
+    line-height: 1.1;
+}
 
 body {
     font-family: "Open Sans";
