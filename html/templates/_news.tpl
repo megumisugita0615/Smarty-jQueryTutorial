@@ -18,6 +18,10 @@
     <div class="container">
         <div class="news-content" id="top-content">
             <h3>Top</h3>
+            <p>$base_url: {$base_url}</p>
+            <p>$top_id: {$top_id}</p>
+            <p>$num_top: {$num_top}</p>
+            <p>$article_data: {$article_data}</p>
         </div>
         <div class="news-content" id="new-content">
             <h3>New</h3>

@@ -56,9 +56,31 @@ $example_data = [
 ];
 
 
+// APIで記事を取得
+$base_url = 'https://hacker-news.firebaseio.com/v0/';
+$top_id = mb_convert_encoding(
+    file_get_contents(
+        $base_url.'topstories.json'
+    ),
+    'UTF8',
+    'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN'
+);
+
+$article_data = mb_convert_encoding(
+    file_get_contents(
+        $base_url.'item/'.$top_id[1].'.json'
+    ),
+    'UTF8',
+    'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN'
+);
+
 $smarty = new Smarty();
 
 /* テンプレートに変数を出力 */
 $smarty->assign('example_data', $example_data);
+
+$smarty->assign('base_url', $base_url);
+$smarty->assign('top_id', $top_id);
+$smarty->assign('article_data', $article_data);
 
 $smarty->display('index.tpl');
