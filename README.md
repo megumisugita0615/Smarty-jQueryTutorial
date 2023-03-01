@@ -46,3 +46,9 @@ templates
 ・ニュース記事のタブ切り替え
 ```
 <img width="1380" alt="welcome_and_tab" src="https://user-images.githubusercontent.com/106021148/221118714-7c995dc7-6ba1-45d0-a491-8c66b37d5f7f.png">
+
+### javascriptでAPIを取得（[Hacker News API](https://github.com/HackerNews/API)）
+
+```
+準備中
+```
