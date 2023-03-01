@@ -3,7 +3,6 @@ install:
 	@make up
 	docker compose exec php composer install
 	docker compose exec php composer require smarty/smarty
-	docker compose exec php chmod 777 -R .
 up:
 	docker compose up -d
 down:

@@ -46,3 +46,13 @@ templates
 ・ニュース記事のタブ切り替え
 ```
 <img width="1380" alt="welcome_and_tab" src="https://user-images.githubusercontent.com/106021148/221118714-7c995dc7-6ba1-45d0-a491-8c66b37d5f7f.png">
+
+### javascriptでAPIを取得（[Hacker News API](https://github.com/HackerNews/API)）
+
+タブをクリックすると記事の表示が切り替わる（[参考](https://github.com/HackerNews/API#new-top-and-best-stories)）
+
+<img width="1439" alt="top" src="https://user-images.githubusercontent.com/106021148/222059963-fb52b89a-0ad6-43c6-9528-7d983abf6e4a.png">
+
+<img width="1440" alt="new" src="https://user-images.githubusercontent.com/106021148/222059957-d9559a32-b6fc-49d4-8298-33022d5aa9e9.png">
+
+<img width="1440" alt="best" src="https://user-images.githubusercontent.com/106021148/222059949-b4130270-8fbe-4aa4-ab8f-049238836580.png">

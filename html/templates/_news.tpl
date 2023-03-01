@@ -18,12 +18,21 @@
     <div class="container">
         <div class="news-content" id="top-content">
             <h3>Top</h3>
+            <div class="container" id="top">
+            {* APIで記事を取得 *}
+            </div>
         </div>
         <div class="news-content" id="new-content">
             <h3>New</h3>
+            <div class="container" id="latest">
+            {* APIで記事を取得 *}
+            </div>
         </div>
         <div class="news-content" id="best-content">
             <h3>Best</h3>
+            <div class="container" id="best">
+            {* APIで記事を取得 *}
+            </div>
         </div>
         <div class="news-content news-content-active" id="example-content">
             <div class="row justify-content-start m-2">
