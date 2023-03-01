@@ -13,3 +13,5 @@ php:
 	docker compose exec php sh
 mysql:
 	docker compose exec mysql mysql -u testuser -p testpassword
+remove:
+	docker system prune --all --force --volumes
